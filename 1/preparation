@@ -6,7 +6,6 @@ STEPS:
 -Build Docker Image and push it to repository, ECR in this case (I did it from a EC2 instance)
 -Configure AWS load balancer controller with an OIDC and a serviceaccount and assign it IAM role
     -For this you must install EKSCTL and follow this guide -> https://www.youtube.com/watch?v=TUS8KWaGKco&t=301s
--Configure AWS load balancer controller with an OIDC and a serviceaccount
 -tag subnets for ingress auto-discovering subnets
 
 tags:
