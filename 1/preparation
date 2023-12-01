@@ -1,7 +1,7 @@
 STEPS:
 
 -Configure IAM policies
--Configure EKS cluster
+-Configure EKS cluster (name:demo)
 -Configure node groups
 -Build Docker Image and push it to repository, ECR in this case (I did it from a EC2 instance)
 -Configure AWS load balancer controller with an OIDC and a serviceaccount and assign it IAM role
